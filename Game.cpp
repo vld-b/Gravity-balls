@@ -13,7 +13,7 @@ Game::Game(SDL_Window* win, SDL_Renderer* renderer) {
 	this->renderer = renderer;
 	isRunning = true;
 
-	player = new GameObject("Assets/img/ball.png", this->renderer, 500, 500, 32, 32, 2);
+	player = new GameObject("Assets/img/ball.png", this->renderer, 200, 200, 32, 32, 2);
 }
 Game::~Game() {}
 
