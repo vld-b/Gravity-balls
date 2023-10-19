@@ -21,7 +21,7 @@ private:
 	SDL_Texture* ObjTexture;
 	SDL_Rect destRect;
 	SDL_Renderer* renderer;
-	Vector2D velocity = Vector2D(10.f, -10.f);
+	Vector2D velocity = Vector2D(1.f, -10.f);
 	Vector2D gravity = Vector2D(0, 9.8f);
 	Vector2D linearDrag = Vector2D(2.f, 1.f);
 };

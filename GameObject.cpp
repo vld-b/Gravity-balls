@@ -12,7 +12,7 @@ GameObject::GameObject(const char* textureSheet, SDL_Renderer* render, int x, in
 
 void GameObject::Update() {
 	velocity = velocity + (gravity / 60);
-	velocity = velocity / linearDrag;
+	//velocity = velocity / linearDrag;
 	pos = pos + velocity;
 
 	std::cout << velocity.toString() << std::endl;
