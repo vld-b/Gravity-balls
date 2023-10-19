@@ -1,0 +1,19 @@
+# Output dir
+x64/
+
+# VS2022 project files
+SDL2 sim.sln
+SDL2 sim.vcxproj
+SDL2 sim.vcxproj.filters
+SDL2 sim.vcxproj.user
+
+# DDLs
+SDL2.dll
+SDL2_image.dll
+
+# SDL2 libs
+SDL2_image-2.6.3/
+SDL2-2.28.4/
+
+# misc
+.vs/
