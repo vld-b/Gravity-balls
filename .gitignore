@@ -2,10 +2,10 @@
 x64/
 
 # VS2022 project files
-SDL2 sim.sln
-SDL2 sim.vcxproj
-SDL2 sim.vcxproj.filters
-SDL2 sim.vcxproj.user
+#SDL2 sim.sln
+#SDL2 sim.vcxproj
+#SDL2 sim.vcxproj.filters
+#SDL2 sim.vcxproj.user
 
 # DDLs
 SDL2.dll
